@@ -1,0 +1,19 @@
+body{
+  background: hsl(212, 45%, 89%);
+  text-align: center;
+}
+#QC{
+  width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background: hsl(0, 0%, 100%);
+  padding:15px;
+  border-radius: 15px;
+}
+#qc-images{
+  width: 100%;
+ border-radius: 10px;
+}
+#main-footer{
+  color:  hsl(212, 45%, 89%);
+}
