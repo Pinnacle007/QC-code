@@ -7,8 +7,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | QR code component</title>
-  <link rel="stylesheet" href="style.css">
- 
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -16,19 +18,36 @@
 
   Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
    -->
-   <section id="QC">
-    <img src="./images/image-qr-code.png" alt="QC-scan code" id="qc-images">
-    <div id="card-details">
-      <h2>Improve your front-end <br> skills by building projects</h2>
-    </div>
-    <div id="main-footer">
-      <dl>
-        <dt>Scan the QR code to visit Frontend</dt>
-        <dt>Mentor and take your coding skills to</dt>
-        <dd>the next level</dd>
-      </dl>
-    </div>
+   <section class="main">
+
+            <div class="container">
+                        <!-- qc img div  -->
+                    <div class="qc-img">
+
+
+                      
+                       <img src="./images/image-qr-code.png" alt="image" class="qc-img">
+                    </div>
+
+                    <!-- div holding the content  -->
+                    <div class="content">
+
+                      <h2 class="head">
+                        Improve your front-end <br> skills by building projects
+                      </h2>
+
+                      <p class="pag">
+                          <dl>
+                           <dt >Scan the QR code to visit Frontend</dt>
+                            <dt>Mentor and take your coding skills to</dt>
+                           <dd>the next level</dd>
+                          </dl>
+                      </p>
+
+                    </div>
+
+            </div>
    </section>
-  <div style="margin-top:200px;"></div>
+   
 </body>
 </html>
